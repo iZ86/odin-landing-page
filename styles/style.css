@@ -65,7 +65,7 @@ h2 {
   padding-bottom: 50px;
 }
 
-.first-content {
+.content-block.first-content {
   display: flex;
   flex-direction: row;
   justify-content: center;
