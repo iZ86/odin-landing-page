@@ -83,7 +83,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  flex-basis: 355px;
+  flex-basis: 450px;
 }
 
 .left-content .sign-up-button {
