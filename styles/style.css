@@ -34,7 +34,7 @@ h2 {
   margin-bottom: 60px;
 }
 
-.first-content, .header {
+.first-content, .header, .footer {
   background-color: #1F2937;
 }
 
@@ -160,4 +160,12 @@ h2 {
 .call-to-action-text-container {
   display: flex;
   flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+  min-height: 40px;
 }
