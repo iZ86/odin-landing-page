@@ -169,3 +169,7 @@ h2 {
   padding: 30px 20px;
   min-height: 40px;
 }
+
+.content-block.fourth-content {
+  min-height: 400px;
+}
