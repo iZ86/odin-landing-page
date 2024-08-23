@@ -31,14 +31,14 @@ h2, .quote-text {
 }
 
 h2 {
-  margin-bottom: 60px;
+  margin-bottom: 71.334px;
 }
 
 .first-content, .header, .footer {
   background-color: #1F2937;
 }
 
-.header, .content-block {
+.header {
   padding: 0 20px;
 }
 
@@ -66,13 +66,13 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 500px;
   flex-wrap: wrap;
 }
 
 .content-block.first-content {
   gap: 50px;
-  min-height: 440px;
+  min-height: 240px;
+  padding: 100px 20px;
 }
 
 .left-content {
@@ -103,15 +103,16 @@ h2 {
   font-size: 48px;
 }
 
-.second-content {
+.content-block.second-content {
   flex-direction: column;
+  min-height: 300px;
+  padding: 40px 20px 100px 20px;
 }
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
-  margin-bottom: 60px;
 }
 
 .card {
@@ -131,6 +132,8 @@ h2 {
 
 .content-block.quote-content-block {
   background-color: #E5E7EB;
+  min-height: 300px;
+  padding: 100px 20px;
 }
 
 .quote-text {
@@ -173,5 +176,6 @@ h2 {
 }
 
 .content-block.fourth-content {
-  min-height: 400px;
+  min-height: 200px;
+  padding: 100px 20px;
 }
